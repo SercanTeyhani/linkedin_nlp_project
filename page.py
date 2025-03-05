@@ -5,7 +5,7 @@ from google import genai
 import io
 
 # Streamlit secrets üzerinden API anahtarını al
-API_KEY = st.secrets["general"]["API_KEY"]  # Streamlit Secrets'ten API_KEY değerini al
+API_KEY = st.secrets["API_KEY"]  # Streamlit Secrets'ten API_KEY değerini al
 
 st.title("🧑‍💻 Online DataMentor🚀")
 st.write("Bu uygulama, DataMentor modeli ile veri bilimi alanında iş başvuru metinlerinde en sık kullanılan kelimeleri analiz eder ve kariyer yolunuzu çizmeye yardımcı olur.")
